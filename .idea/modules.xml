@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dynamic-datasource.iml" filepath="$PROJECT_DIR$/dynamic-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic-datasource-demo/dynamic-datasource-demo.iml" filepath="$PROJECT_DIR$/dynamic-datasource-demo/dynamic-datasource-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic-datasource-spring-boot-starter/dynamic-datasource-spring-boot-starter.iml" filepath="$PROJECT_DIR$/dynamic-datasource-spring-boot-starter/dynamic-datasource-spring-boot-starter.iml" />
+    </modules>
+  </component>
+</project>
