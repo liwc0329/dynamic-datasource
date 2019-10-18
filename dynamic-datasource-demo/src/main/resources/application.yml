@@ -10,6 +10,19 @@ spring:
     password: 1105lwc
     driverClassName: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
+    pool:
+      initialSize: 10
+      minIdle: 0
+      maxActive: 1000
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      preparedStatement: true
+      poolPreparedStatements: true
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
 dynamic:
   datasource:
     ds1:
@@ -18,6 +31,11 @@ dynamic:
       password: 1105lwc
       driverClassName: com.mysql.cj.jdbc.Driver
     ds2:
+      url: jdbc:mysql://localhost:3306/data3?serverTimezone=UTC
+      username: root
+      password: 1105lwc
+      driverClassName: com.mysql.cj.jdbc.Driver
+    ds3:
       url: jdbc:mysql://localhost:3306/data3?serverTimezone=UTC
       username: root
       password: 1105lwc

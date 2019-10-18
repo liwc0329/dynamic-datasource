@@ -1,0 +1,134 @@
+{
+  "properties": [
+    {
+      "name": "spring.datasource.pool.initialSize",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.initialSize."
+    },
+    {
+      "name": "spring.datasource.pool.minIdle",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.minIdle."
+    },
+    {
+      "name": "spring.datasource.pool.maxActive",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.maxActive."
+    },
+    {
+      "name": "spring.datasource.pool.maxWait",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.maxWait."
+    },
+    {
+      "name": "spring.datasource.pool.timeBetweenEvictionRunsMillis",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.timeBetweenEvictionRunsMillis."
+    },
+    {
+      "name": "spring.datasource.pool.minEvictableIdleTimeMillis",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.minEvictableIdleTimeMillis."
+    },
+    {
+      "name": "spring.datasource.pool.validationQuery",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.validationQuery."
+    },
+    {
+      "name": "spring.datasource.pool.testWhileIdle",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.testWhileIdle."
+    },
+    {
+      "name": "spring.datasource.pool.testOnBorrow",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.testOnBorrow."
+    },
+    {
+      "name": "spring.datasource.pool.testOnReturn",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.testOnReturn."
+    },
+    {
+      "name": "spring.datasource.pool.preparedStatement",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.preparedStatement."
+    },
+    {
+      "name": "spring.datasource.pool.poolPreparedStatements",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.poolPreparedStatements."
+    },
+    {
+      "name": "spring.datasource.pool.connectionProperties",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.pool.connectionProperties."
+    },
+    {
+      "name": "dynamic.datasource.*.url",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds1.url."
+    },
+    {
+      "name": "dynamic.datasource.ds1.url",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds1.url."
+    },
+    {
+      "name": "dynamic.datasource.ds1.username",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds1.username."
+    },
+    {
+      "name": "dynamic.datasource.ds1.password",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds1.password."
+    },
+    {
+      "name": "dynamic.datasource.ds1.driverClassName",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds1.driverClassName."
+    },
+    {
+      "name": "dynamic.datasource.ds2.url",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds2.url."
+    },
+    {
+      "name": "dynamic.datasource.ds2.username",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds2.username."
+    },
+    {
+      "name": "dynamic.datasource.ds2.password",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds2.password."
+    },
+    {
+      "name": "dynamic.datasource.ds2.driverClassName",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds2.driverClassName."
+    },
+    {
+      "name": "dynamic.datasource.ds3.url",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds3.url."
+    },
+    {
+      "name": "dynamic.datasource.ds3.username",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds3.username."
+    },
+    {
+      "name": "dynamic.datasource.ds3.password",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds3.password."
+    },
+    {
+      "name": "dynamic.datasource.ds3.driverClassName",
+      "type": "java.lang.String",
+      "description": "Description for dynamic.datasource.ds3.driverClassName."
+    }
+  ]
+}

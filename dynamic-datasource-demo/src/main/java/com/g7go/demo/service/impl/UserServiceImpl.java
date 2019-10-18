@@ -29,6 +29,11 @@ public class UserServiceImpl implements UserService {
      * @return
      */
     @Override
+    public User dataFindUserById(int id) {
+        return userRepository.findById(id).orElse(null);
+    }
+
+    @Override
     @TargetDataSource("ds1")
     public User data1FindUserById(int id) {
         return userRepository.findById(id).orElse(null);
@@ -40,17 +45,16 @@ public class UserServiceImpl implements UserService {
         return userRepository.findById(id).orElse(null);
     }
 
-    @Override
-    @TargetDataSource("ds3")
-    public User data3FindUserById(int id) {
-        return userRepository.findById(id).orElse(null);
-    }
-
     /**
      * 查询所有用户
      *
      * @return
      */
+    @Override
+    public List<User> dataFindUserAll() {
+        return userRepository.findAll();
+    }
+
     @Override
     @TargetDataSource("ds1")
     public List<User> data1FindUserAll() {
@@ -63,17 +67,16 @@ public class UserServiceImpl implements UserService {
         return userRepository.findAll();
     }
 
-    @Override
-    @TargetDataSource("ds3")
-    public List<User> data3FindUserAll() {
-        return userRepository.findAll();
-    }
-
     /**
      * 添加新的用户
      *
      * @param user
      */
+    @Override
+    public void dataInsertUser(User user) {
+        userRepository.save(user);
+    }
+
     @Override
     @TargetDataSource("ds1")
     public void data1InsertUser(User user) {
@@ -86,17 +89,16 @@ public class UserServiceImpl implements UserService {
         userRepository.save(user);
     }
 
-    @Override
-    @TargetDataSource("ds3")
-    public void data3InsertUser(User user) {
-        userRepository.save(user);
-    }
-
     /**
      * 修改用户
      *
      * @param user
      */
+    @Override
+    public void dataUpdateUser(User user) {
+        userRepository.save(user);
+    }
+
     @Override
     @TargetDataSource("ds1")
     public void data1UpdateUser(User user) {
@@ -109,17 +111,16 @@ public class UserServiceImpl implements UserService {
         userRepository.save(user);
     }
 
-    @Override
-    @TargetDataSource("ds3")
-    public void data3UpdateUser(User user) {
-        userRepository.save(user);
-    }
-
     /**
      * 删除用户
      *
      * @param id
      */
+    @Override
+    public void dataDeleteUserById(int id) {
+        userRepository.deleteById(id);
+    }
+
     @Override
     @TargetDataSource("ds1")
     public void data1DeleteUserById(int id) {
@@ -129,12 +130,6 @@ public class UserServiceImpl implements UserService {
     @Override
     @TargetDataSource("ds2")
     public void data2DeleteUserById(int id) {
-        userRepository.deleteById(id);
-    }
-
-    @Override
-    @TargetDataSource("ds3")
-    public void data3DeleteUserById(int id) {
         userRepository.deleteById(id);
     }
 }
